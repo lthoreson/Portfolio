@@ -1,0 +1,137 @@
+body {
+  background-image: url("https://images.pexels.com/photos/948331/pexels-photo-948331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+  font-family: sans-serif;
+}
+main{
+  
+}
+
+@media (max-width: 630px) {
+  body {
+    background-size: auto 100%;
+  }
+}
+
+h1, h2 {
+  text-align: center;
+  color: white;
+  
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0px 10px 20px black;
+}
+img {
+  width: 100%;
+}
+
+#navbar {
+  position: fixed;
+  top: 6px;
+  left: 0px;
+  background: black;
+  opacity: 0.7;
+  width: 100%;
+  padding: 0px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  
+}
+@media (max-width: 600px) {
+  #navbar {
+    font-size: 18px;
+  }
+}
+
+#navbar a {
+  padding: 10px;
+  color: white;
+}
+
+#navbar a:hover {
+  color: black;
+  background-color: #c1eeff;
+}
+
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+#welcome-section h1 {
+  font-size: 10vw;
+}
+
+@media (max-width: 250px) {
+  #welcome-section h1 {
+    font-size: 25px;
+  }
+}
+
+.light-blue {
+  color: #7CE0F8;
+}
+
+.badge {
+  border-radius: 20px;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge:hover {
+  background: black;
+  box-shadow: 0px 10px 20px black;
+  opacity: 0.7;
+}
+
+.badge:hover h1 {
+  color: white;
+}
+
+#projects {
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.project-tile {
+  margin: 0px;
+  width: 50%;
+}
+
+.project-image:hover {
+  filter: brightness(50%);
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact a {
+  font-size: 25px;
+}
