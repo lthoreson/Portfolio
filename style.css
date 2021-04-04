@@ -122,6 +122,9 @@ img {
 .project-tile {
   margin: 0px;
   width: 50%;
+}
+
+.project-image {
   border-radius: 10px;
 }
 
