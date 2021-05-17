@@ -1,7 +1,7 @@
 body {
   background-image: url("https://images.pexels.com/photos/948331/pexels-photo-948331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   font-family: sans-serif;
 }
