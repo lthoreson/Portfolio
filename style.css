@@ -87,7 +87,6 @@ img {
   background: black;
   box-shadow: 0px 10px 20px black;
   opacity: 0.7;
-  color: rgba(255,255,255,0.7);
   }
 }
 
@@ -96,6 +95,10 @@ img {
 }
 
 .badge:hover .light-blue {
+  color: white;
+}
+
+.badge:hover h1 {
   color: white;
 }
 
