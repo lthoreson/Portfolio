@@ -89,8 +89,10 @@ img {
   opacity: 0.7;
 }
 
-.badge h1:hover {
-  color: white;
+.badge:hover {
+  h1 {
+    color: white;
+  }
 }
 
 .light-blue {
