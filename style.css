@@ -89,10 +89,6 @@ img {
   justify-content: center;
 }
 
-.badge h1 {
-  color: black;
-}
-
 .badge:hover {
   background: black;
   box-shadow: 0px 10px 20px black;
