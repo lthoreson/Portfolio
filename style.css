@@ -90,11 +90,11 @@ img {
   }
 }
 
-.light-blue {
+#light-blue {
   color: #7CE0F8;
 }
 
-.badge:hover .light-blue {
+.badge:hover #light-blue {
   color: white;
 }
 
