@@ -80,10 +80,6 @@ img {
   }
 }
 
-.light-blue {
-  color: #7CE0F8;
-}
-
 .badge {
   border-radius: 20px;
   height: 45%;
@@ -91,6 +87,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.badge h1 {
+  color: black;
 }
 
 .badge:hover {
@@ -101,6 +101,10 @@ img {
 
 .badge:hover h1 {
   color: white;
+}
+
+.light-blue {
+  color: #7CE0F8;
 }
 
 .project-grid {
