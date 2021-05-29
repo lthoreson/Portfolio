@@ -5,17 +5,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   font-family: sans-serif;
+  color: white;
+  text-align: center;
 }
 
 @media (max-width: 630px) {
   body {
     background-size: auto 100%;
   }
-}
-
-h1, h2 {
-  text-align: center;
-  color: white;
 }
 
 a {
@@ -94,7 +91,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
 }
 
 .badge:hover {
@@ -105,9 +101,6 @@ img {
 
 .badge:hover h1 {
   color: white;
-}
-
-#projects {
 }
 
 .project-grid {
