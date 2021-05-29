@@ -9,12 +9,6 @@ body {
   text-align: center;
 }
 
-@media (max-width: 630px) {
-  body {
-    background-size: auto 100%;
-  }
-}
-
 a {
   color: white;
   text-decoration: none;
@@ -53,7 +47,6 @@ img {
 
 #navbar a {
   padding: 10px;
-  color: white;
 }
 
 #navbar a:hover {
@@ -87,6 +80,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: black;
 }
 
 .badge:hover {
@@ -95,7 +89,7 @@ img {
   opacity: 0.7;
 }
 
-.badge:hover h1 {
+.badge h1:hover {
   color: white;
 }
 
