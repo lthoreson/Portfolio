@@ -1,17 +1,40 @@
 body {
-  background-image: url("https://images.pexels.com/photos/948331/pexels-photo-948331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   font-family: sans-serif;
   color: white;
+}
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: black;
+  opacity: 0.8;
+  width: 100%;
+  padding: 0px;
+  font-size: 3vh;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+nav a {
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: cyan;
+}
+
+h1 {
   text-align: center;
 }
 
 a {
   color: white;
   text-decoration: none;
+}
+
+a:hover {
+  color: black;
 }
 
 section {
@@ -25,93 +48,52 @@ img {
   width: 100%;
 }
 
-#navbar {
-  position: fixed;
-  top: 6px;
-  left: 0px;
-  background: black;
-  opacity: 0.7;
-  width: 100%;
-  padding: 0px;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  z-index: 1;
-  
-}
-@media (max-width: 600px) {
-  #navbar {
-    font-size: 18px;
-  }
-}
-
-#navbar a {
-  padding: 10px;
-}
-
-#navbar a:hover {
-  color: black;
-  background-color: #c1eeff;
-}
-
-.welcome-section {
+#welcome-section {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: transparent;
-  box-shadow: none;
-}
-
-.welcome-section h1 {
-  font-size: 8vw;
-}
-
-@media (max-width: 250px) {
-  .welcome-section h1 {
-    font-size: 25px;
-  }
+  background-image: url("https://images.pexels.com/photos/948331/pexels-photo-948331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .badge {
   border-radius: 20px;
-  height: 45%;
-  width: 45%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-}
-
-.badge:hover {
-  background: black;
-  box-shadow: 0px 10px 20px black;
   opacity: 0.7;
-  }
+  position: absolute;
+  top: 20%;
 }
 
-#light-blue {
-  color: #7CE0F8;
+.badge h1:hover {
+  color: darkviolet;
 }
 
-.badge:hover #light-blue {
+.badge h1 {
   color: white;
-}
-
-.badge:hover h1 {
-  color: white;
+  margin: 10px;
+  font-size: 8vh;
+  background: black;
+  text-align: start;
+  padding: 5px 10px;
 }
 
 .project-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   text-align: center;
 }
 
 .project-tile {
-  margin: 0px;
+  margin: 0;
   width: 50%;
+}
+
+@media only screen and (max-width: 100vh) {
+  .badge h1 {
+    font-size: 11vw;
+  }
+  .project-tile {
+    width: 100%;
+  }
 }
 
 .project-image {
@@ -128,4 +110,5 @@ img {
 
 #contact a {
   font-size: 25px;
+  margin: 10px;
 }
